@@ -2,6 +2,13 @@
 🍕 Pizza Sales Dashboard in Excel 
 📌 Overview This project is a deep dive into pizza sales data using Microsoft Excel, showcasing interactive dashboards, dynamic filtering, and visual storytelling. It transforms raw data into actionable insights for business decision-making—perfect for showcasing Excel mastery in real-world analytics.
 
+### 📊 Dashboard Link  
+[Click here to view the Pizza Sales Dashboard](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/Dashboard..jpg)
+
+### 📂 Raw Data Link  
+[Click here to access the Raw Data (Excel file)](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/RawData.xlsx)
+
+
 📊  Pizza Sales Data Analysis Project
 
 Tools Used: SQL & Excel
