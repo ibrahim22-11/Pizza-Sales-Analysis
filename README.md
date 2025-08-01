@@ -70,8 +70,8 @@ DATE_PART('HOUR', ORDER_TIME) – to get the hour of order
 
 3. Percentage Calculation Formula:
 
-(SUM(column_name) * 100) / 
-(SELECT SUM(column_name) FROM table_name)
+(SUM(order_id) * 100) / 
+(SELECT SUM(order_id) FROM table_name)
 
 
 📚 What I Learned
