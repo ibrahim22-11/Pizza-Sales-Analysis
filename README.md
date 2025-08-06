@@ -12,7 +12,7 @@
 📊  Pizza Sales Data Analysis Project
 
 Tools Used: SQL & Excel
-Status: ✅ Completed on 31st July 2025
+Status: ✅ Completed on 1st August 2025
 
 🧾 Overview
 
