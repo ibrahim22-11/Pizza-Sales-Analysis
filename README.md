@@ -98,6 +98,14 @@ If you'd like to suggest improvements, collaborate, or raise an issue:
 
 💡 Open an issue
 
+
+
+**A project by Ibrahim Mufaddal Shakir**  
+*Aspiring Data Analyst*
+
+
+
+
 🔁 Submit a pull request with enhancements or ideas
 
 © 2025 Ibrahim — All rights reserved.
