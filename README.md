@@ -65,11 +65,13 @@ This project focuses on analyzing a pizza sales dataset using **SQL** for data e
 TO_CHAR(order_date, 'DAY')
 
 
+
+
 2. Time Extraction
 DATE_PART('HOUR', order_time)
 
 
-Used to extract the hour of the order for hourly trend analysis.
+
 
 3. Percentage Calculation Formula
 (SUM(order_id) * 100) / (SELECT SUM(order_id) FROM table_name)
@@ -77,7 +79,6 @@ Used to extract the hour of the order for hourly trend analysis.
 
 
 
-Used to calculate category or size percentage sales.
 
 📚 What I Learned
 
