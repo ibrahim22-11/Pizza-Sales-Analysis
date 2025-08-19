@@ -1,90 +1,118 @@
-# Pizza-Sales-Analysis
-🍕 Pizza Sales Dashboard in Excel 
-📌 Overview This project is a deep dive into pizza sales data using Microsoft Excel, showcasing interactive dashboards, dynamic filtering, and visual storytelling. It transforms raw data into actionable insights for business decision-making—perfect for showcasing Excel mastery in real-world analytics.
+# 🍕 Pizza Sales Analysis Dashboard
 
-### 📊 Dashboard Link  
-[Click here to view the Pizza Sales Dashboard](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/Dashboard..jpg)
+An interactive dashboard project that analyzes real pizza sales data using **SQL for data transformation** and **Excel for visualization**. This dashboard uncovers patterns in customer behavior, product performance, and order trends to support better business decisions.
 
-### 📂 Raw Data Link  
-[Click here to access the Raw Data (Excel file)](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/RawData.xlsx)
+![Pizza Dashboard](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/Dashboard..jpg)
 
+---
 
-📊  Pizza Sales Data Analysis Project
+## 📅 Project Info
 
-Tools Used: SQL & Excel
-Status: ✅ Completed on 1st August 2025
+- **🧰 Tools Used:** SQL, Microsoft Excel  
+- **📁 Completed On:** 1st August 2025  
+- **📌 Status:** ✅ Completed  
+- **🔗 Dashboard Preview:** [View Dashboard](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/Dashboard..jpg)
 
-🧾 Overview
+---
 
-This project focuses on analyzing a pizza sales dataset to uncover key business insights using SQL for data extraction and transformation and Excel for visualization. The goal was to generate actionable KPIs and build meaningful dashboards that help understand sales patterns, customer behavior, and product performance.
+## 🧾 Project Overview
 
+This project focuses on analyzing a pizza sales dataset using **SQL** for data extraction and cleaning, followed by **Excel** for dynamic dashboards and visual storytelling. The objective was to generate KPIs and interactive visuals that reveal sales insights and support decision-making.
 
-🧠 Objectives / Key Tasks
+---
 
-Extract, clean, and analyze sales data using SQL.
+## 🎯 Objectives
 
-Build visual dashboards in Excel to represent KPIs.
+- Extract, clean, and analyze pizza sales data using SQL  
+- Create an interactive dashboard in Excel  
+- Track key performance indicators (KPIs)  
+- Identify top/worst performing products and peak sales periods  
 
-Derive insights to support business decisions.
+---
 
+## 📊 KPIs Tracked
 
-📌 KPIs Tracked
+- **Total Revenue**  
+- **Average Order Value**  
+- **Total Pizzas Sold**  
+- **Total Number of Orders**  
+- **Average Pizzas per Order**
 
-Total Revenue
+---
 
-Average Order Value
+## 📈 Dashboard Visuals
 
-Total Pizzas Sold
+- 📅 **Daily Trends of Total Orders** (Bar Chart)  
+- ⏰ **Hourly Trends of Total Orders** (Line Chart)  
+- 🍕 **Total Pizzas Sold by Pizza Category**  
+- 🧀 **Percentage of Sales by Pizza Category** (Pie Chart)  
+- 🍕 **Percentage of Sales by Pizza Size**  
+- 🥇 **Top 5 Best-Selling Pizzas** (By Quantity Sold)  
+- 🥄 **Worst 5 Selling Pizzas** (By Quantity Sold)
 
-Total Number of Orders
+---
 
-Average Pizzas per Order
+## 📁 Project Files
 
+- 📊 **Dashboard Image:** [Click to View](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/Dashboard..jpg)  
+- 📄 **Raw Data (Excel File):** [Click to Download](https://github.com/ibrahim22-11/Pizza-Sales-Analysis/blob/main/RawData.xlsx)
 
-📈 Charts & Dashboard Requirements
+---
 
-📅 Daily Trends of Total Orders (Bar Chart)
+## 🛠 SQL Techniques Used
 
-⏰ Hourly Trends of Total Orders (Line Chart)
-
-🍕 Total Pizzas Sold by Pizza Category
-
-🧀 Percentage of Sales by Pizza Category (Pie Chart)
-
-🍕 Percentage of Sales by Pizza Size
-
-🥇 Top 5 Best-Selling Pizzas (by Total Quantity Sold)
-
-🥄 Worst 5 Selling Pizzas (by Total Quantity Sold)
-
-
-🛠 SQL Concepts Used
-
-1. Date Formatting:
-TO_CHAR(ORDER_DATE, 'DAY') – to extract day from order date
-
-
-2. Time Extraction:
-DATE_PART('HOUR', ORDER_TIME) – to get the hour of order
+### 1. Date Formatting  
+```sql
+TO_CHAR(order_date, 'DAY')
 
 
-3. Percentage Calculation Formula:
+2. Time Extraction
+DATE_PART('HOUR', order_time)
 
-(SUM(order_id) * 100) / 
-(SELECT SUM(order_id) FROM table_name)
 
+Used to extract the hour of the order for hourly trend analysis.
+
+3. Percentage Calculation Formula
+(SUM(order_id) * 100) / (SELECT SUM(order_id) FROM table_name)
+
+
+Used to calculate category or size percentage sales.
 
 📚 What I Learned
 
-Practical use of SQL date/time functions for trend analysis
+Practical usage of SQL date/time functions for trend analysis
 
-Techniques for calculating percentages and KPIs
+Techniques for KPI and percentage calculations in SQL
 
-How to convert raw data into a visual story using Excel
+Designing visually appealing and informative dashboards in Excel
 
-Identifying sales patterns and best/worst performing products
+Recognizing sales patterns, top products, and improvement areas
+
+🚀 Project Outcome
+
+This project enhanced my ability to turn raw transactional data into interactive insights using SQL + Excel. It represents a strong foundation in my data analytics portfolio, combining technical analysis, business insight, and storytelling.
+
+💬 Feedback & Contributions
+
+If you'd like to suggest improvements, collaborate, or raise an issue:
+
+💡 Open an issue
+
+🔁 Submit a pull request with enhancements or ideas
+
+© 2025 Ibrahim — All rights reserved.
 
 
-🚀 Outcome
+---
 
-This project improved my ability to turn raw transactional data into actionable insights and present it in an understandable format using both SQL and Excel. It demonstrates a foundational project in my data analytics portfolio and showcases my analytical thinking, SQL skills, and dashboard creation abilities.
+### ✅ Next Step
+
+Would you like me to:
+
+1. **Export this as a `README.md` file** for download?  
+2. **Help you upload it** directly to your GitHub repo?
+
+Let me know how you'd like to proceed!
+
+
+
