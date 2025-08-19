@@ -59,10 +59,9 @@ This project focuses on analyzing a pizza sales dataset using **SQL** for data e
 
 ---
 
-## 🛠 SQL Techniques Used
+## 🛠 SQL Techniques Use
 
-### 1. Date Formatting  
-```sql
+1. Data formatting 
 TO_CHAR(order_date, 'DAY')
 
 
@@ -76,21 +75,21 @@ Used to extract the hour of the order for hourly trend analysis.
 (SUM(order_id) * 100) / (SELECT SUM(order_id) FROM table_name)
 
 
+
+
 Used to calculate category or size percentage sales.
 
 📚 What I Learned
 
-Practical usage of SQL date/time functions for trend analysis
-
-Techniques for KPI and percentage calculations in SQL
-
-Designing visually appealing and informative dashboards in Excel
-
-Recognizing sales patterns, top products, and improvement areas
+- Practical usage of SQL date/time functions for trend analysis  
+- Techniques for KPI and percentage calculations in SQL  
+- Designing visually appealing and informative dashboards in Excel  
+- Recognizing sales patterns, top products, and improvement areas  
 
 🚀 Project Outcome
 
-This project enhanced my ability to turn raw transactional data into interactive insights using SQL + Excel. It represents a strong foundation in my data analytics portfolio, combining technical analysis, business insight, and storytelling.
+This project enhanced my ability to turn raw transactional data into interactive insights using SQL + Excel.  
+It represents a strong foundation in my data analytics portfolio, combining technical analysis, business insight, and storytelling.
 
 💬 Feedback & Contributions
 
@@ -101,18 +100,6 @@ If you'd like to suggest improvements, collaborate, or raise an issue:
 🔁 Submit a pull request with enhancements or ideas
 
 © 2025 Ibrahim — All rights reserved.
-
-
----
-
-### ✅ Next Step
-
-Would you like me to:
-
-1. **Export this as a `README.md` file** for download?  
-2. **Help you upload it** directly to your GitHub repo?
-
-Let me know how you'd like to proceed!
 
 
 
